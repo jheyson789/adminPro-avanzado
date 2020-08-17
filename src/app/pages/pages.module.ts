@@ -12,6 +12,7 @@ import { PagesComponent } from './pages.component';
 import { ComponentsModule } from '../components/components.module';
 import { AccountSettingComponent } from './account-setting/account-setting.component';
 import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -22,7 +23,8 @@ import { PromesasComponent } from './promesas/promesas.component';
     Grafica1Component,
     PagesComponent,
     AccountSettingComponent,
-    PromesasComponent
+    PromesasComponent,
+    RxjsComponent
   ],
   exports: [
     DashboardComponent,
@@ -30,7 +32,8 @@ import { PromesasComponent } from './promesas/promesas.component';
     Grafica1Component,
     PagesComponent,
     AccountSettingComponent,
-    PromesasComponent
+    PromesasComponent,
+    RxjsComponent
   ],
   imports: [
     CommonModule,
